@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+</head>
+<body>
+    <header>
+        <a href="#" class="logo"><img src="images/icons/logo-no-background.png" alt ="logo"></a>
+        <nav>
+            <ul class="navbar">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Contact</a></li>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>    
+
+        <form action="" method="get" class="search_bar">
+            <input type="text" placeholder="Search">
+            <button class="bx bx-search"></button>
+        </form>
+
+        <div class="nav_icon">
+            <a href="#" class="icon cart"><i class='bx bx-cart' ></i></a>
+            <a href="#" class="icon user"><i class='bx bx-user' ></i></a>
+            <a href="#" class="icon info"><i class='bx bx-info-circle' ></i></a>
+            <div class="bx bx-menu" id="menu-icon"></div>
+        </div>
+    </header>
+
+    <main>
+        <div class="slidebar">
+            <div id="slider">
+                <figure>
+                    <a href="#" ><img class="sliderimg1" src="images/books/fiction/TheAlchemist.jpeg" alt="TheAlchemist"></a>
+                    <a href="#" ><img class="sliderimg2" src="images/books/fiction/thewitcher.png" alt="thewitcher"></a>
+                    <a href="#" ><img class="sliderimg3" src="images/books/non-fiction/when breathe.png" alt="whenbreathe"></a>
+                    <a href="#" ><img class="sliderimg1" src="images/books/fiction/TheAlchemist.jpeg" alt="TheAlchemist"></a>
+                </figure>
+            </div>
+            <a href="#" class="staticpic"><img id="topside1" src="images/books/fiction/20000leagues.jpg" alt="20000leagues"></a>
+            <a href="#" class="staticpic"><img id="topside2" src="images/books/fiction/GoT.jpg" alt="GoT"></a>
+            <a href="#" class="staticpic"><img id="topside3" src="images/books/comic/Bluelock.jpg" alt="Bluelock"></a>
+            <a href="#" class="staticpic"><img id="downside" src="images/books/fiction/HarryPotter2_.jpg" alt="HarryPotter"></a>
+            
+        </div>
+
+        <div class="products">
+            <section class="displayer fiction">
+                <a href="#video"><h2 class="item_title">✨FICTION:✨</h2></a>
+                <table class="item_avt" id="item_avt">
+                
+                    <tr>
+                        <td>
+                            <a href="#">
+                                <img src="images/books/fiction/TheAlchemist_cover.jpg" alt="The Alchemist">
+                                <h3>The Alchemist</h3>
+                                <h2 id="author">Paulo Coelho</h2>
+                                <h2>$12.43</h2>
+                                <button class="addtocart bx bx-cart"></button>
+                            </a>
+                        </td>
+
+                        <td>
+                            <a href="#">
+                                <img src="images/books/fiction/20000leagues.jpg" alt="20,000 Leagues Under The Sea">
+                                <h3>20,000 Leagues Under The Sea</h3>
+                                <h2 id="author">Paulo Coelho</h2>
+                                <h2>$12.43</h2>
+                                <button class="addtocart bx bx-cart"></button>
+                            </a>
+                        </td>
+
+                        <td>
+                            <a href="#">
+                                <img src="images/books/fiction/GoT.jpg" alt="The Rise of the Dragon: Volume 1">
+                                <h3>The Rise of the Dragon: Volume 1</h3>
+                                <h2 id="author">Paulo Coelho</h2>
+                                <h2>$12.43</h2>
+                                <button class="addtocart bx bx-cart"></button>
+                            </a>
+                        </td>
+
+                        <td>
+                            <a href="#">
+                                <img src="images/books/fiction/HarryPotter1_cover.png" alt="Harry Potter and the Philosopher's Stone">
+                                <h3>Harry Potter and the Philosopher's Stone</h3>
+                                <h2 id="author">Paulo Coelho</h2>
+                                <h2>$12.43</h2>
+                                <button class="addtocart bx bx-cart"></button>
+                            </a>
+                        <td>
+                            <a href="#">
+                                <img src="images/books/fiction/HarryPotterfull.png" alt="Harry Potter Full Collection">
+                                <h3>Harry Potter Full Collection</h3>
+                                <h2 id="author">Paulo Coelho</h2>
+                                <h2>$12.43</h2>
+                                <button class="addtocart bx bx-cart"></button>
+                            </a>
+                        </td>
+                    
+                    </tr>
+               
+            </table>
+            </section>
+
+            <section class="video" id="video">
+                <video alt="The Alchemist Trailer"  controls>
+                    <source src="images/books/fiction/The Alchemist Book Trailer.mp4" type="video/mp4">
+                </video>
+                <video alt="Harry Potter Trailer"  controls>
+                    <source src="images/books/fiction/The Harry Potter Series by J.K. Rowling - Official Book Trailer.mp4" type="video/mp4">
+                </video>
+            </section>
+
+
+            <section class="comic">
+                <a href="comic.html"><h2 class="item_title2">⚡️COMIC:⚡️</h2></a>
+                <div class="manga_img">
+                    <a href="comic.html#Blue_lock"><img id="left" src="images/books/comic/bluelockbanner.jpg" alt="Blue Lock banner"></a>
+                    <a href="comic.html#Oshi_no_ko"><img id="middle" src="images/books/comic/Oshi_no_ko_banner.png" alt="Oshi no Ko banner"></a>
+                    <a href="comic.html#Chainsawman"><img id="right" src="images/books/comic/chainsawman.png" alt="Chainsawman banner"></a>
+                </div>
+            </section>
+
+            <section class="video2">
+                <video alt="Chainsawman Trailer"  controls>
+                    <source src="images/books/comic/[MMV] CHAINSAW MAN x ONE OK ROCK.mp4" type="video/mp4">
+                </video>
+                <video alt="Oshi no Ko Opening"  controls>
+                    <source src="images/books/comic/【推しの子】ノンクレジットオープニング｜YOASOBI「アイドル」.mp4" type="video/mp4">
+                </video>
+            </section>
+
+            <section class="displayer non-fiction">
+                <h2 class="item_title">📕NON-FICTION:📕</h2>
+                <table class="item_avt" id="item_avt">
+                
+                    <tr>
+                        <td>
+                            <a href="#">
+                                <img src="images/books/non-fiction/when_breathe_cover.png" alt="When Breathe Becomes Air">
+                                <h3>When Breathe Becomes Air</h3>
+                                <h2 id="author">Paulo Coelho</h2>
+                                <h2>$12.43</h2>
+                                <button class="addtocart bx bx-cart"></button>
+                            </a>
+                        </td>
+
+                        <td>
+                            <a href="#">
+                                <img src="images/books/non-fiction/In_Defence_of_Witches.png" alt="In Defence of Witches">
+                                <h3>In Defence of Witches</h3>
+                                <h2 id="author">Paulo Coelho</h2>
+                                <h2>$12.43</h2>
+                                <button class="addtocart bx bx-cart"></button>
+                            </a>
+                        </td>
+
+                        <td>
+                            <a href="#">
+                                <img src="images/books/non-fiction/the_invisible_kingdom.png" alt="The Invisible Kingdom">
+                                <h3>The Invisible Kingdom</h3>
+                                <h2 id="author">Paulo Coelho</h2>
+                                <h2>$12.43</h2>
+                                <button class="addtocart bx bx-cart"></button>
+                            </a>
+                        </td>
+
+                        <td>
+                            <a href="#">
+                                <img src="images/books/non-fiction/Sapiens.png" alt="Sapiens: A Brief History of Humankind">
+                                <h3>Sapiens: A Brief History of Humankind</h3>
+                                <h2 id="author">Paulo Coelho</h2>
+                                <h2>$12.43</h2>
+                                <button class="addtocart bx bx-cart"></button>
+                            </a>
+                        <td>
+                            <a href="#">
+                                <img src="images/books/non-fiction/How_to_win.png" alt="How to Win Friends and Influence People">
+                                <h3>How to Win Friends and Influence People</h3>
+                                <h2 id="author">Paulo Coelho</h2>
+                                <h2>$12.43</h2>
+                                <button class="addtocart bx bx-cart"></button>
+                            </a>
+                        </td>
+                    
+                    </tr>
+                </table>
+            </section>
+        </div>
+    </main>
+
+    
+    <footer>
+        <div class="container">
+            <div class="item first">
+                <a><img src="images/icons/logo-no-background.png"></a>
+            </div>
+                
+            <div class="item second">
+                <a href="#">About Us</a>
+                <br>
+                <a href="#">Privacy Policy</a>  
+                <br>
+                <a href="#">Terms of Use</a>
+                <br>
+                © 2023 All Rights Reserved 
+            </div>
+            
+            <div class="item third">
+                Contact Us:
+                <br>
+                <a href="https://goo.gl/maps/JM7FXjvj6FadsQ3c7">🗺️ : District 7, Ho Chi Minh City</a>
+                <br>
+                <a href="tel:+84932166716">📞 : +84932166716</a>
+                <br>
+                <a href="mailto:trongtiennew@gmail.com">📩 : trongtiennew@gmail.com</a>
+            </div>
+            
+        </div>
+    </footer>
+
+
+    <script>
+        let menu = document.querySelector("#menu-icon");
+        let navbar = document.querySelector(".navbar");
+        menu.onclick = () =>{
+            menu.classList.toggle("bx-x");
+            navbar.classList.toggle("open");
+        }
+    </script>
+</body>
+</html>
