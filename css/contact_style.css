@@ -6,6 +6,7 @@ main {
     border-radius: 1rem;
     margin: 0 auto;
     margin-top: 12%;
+    zoom: 80%;
 }
 
 #page_title {
@@ -132,4 +133,47 @@ main form {
     .buttons #submit_button, #reset_button {
         width: 40%;
     }
+}
+
+
+@media (max-width: 960px) {
+    footer {
+        top: unset;
+        top: 230%;
+    }
+    @media (max-width: 690px) {
+        footer {
+            top: 200%;
+        }
+    
+        footer .container{
+            flex-direction: column;
+        }
+    
+        footer .item {
+            padding: 5%;
+        }
+          
+    }
+    @media (max-width: 465px) {
+        footer {
+            top: 180%;
+        }
+    
+    }
+
+    @media (max-width: 375px) {
+        footer {
+            top: 180%;
+        }
+    
+    }
+        
+    @media (max-width: 275px) {
+        footer {
+            top: 170%;
+        }
+    }
+    
+
 }

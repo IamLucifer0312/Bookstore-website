@@ -33,7 +33,7 @@ header {
     align-items: center;
     justify-content: space-between;
     padding: 1.25rem 3%;
-
+    zoom: 80%;
 }
 
 .logo {
@@ -210,6 +210,7 @@ main {
     position: absolute;
     top: 30%;
     padding: 0 10%;
+    zoom: 80%;
 }
 
 .book_purchase {
@@ -368,6 +369,7 @@ footer {
     top: 170%;
     background-color: #000000;
     color: #ffffff;
+    zoom: 80%;
 }
 
 
@@ -438,11 +440,11 @@ footer .item a:hover {
 
 @media (max-width: 960px) {
     footer {
-        top: 450%;
+        top: 390%;
     }
     @media (max-width: 690px) {
         footer {
-            top: 440%;
+            top: 360%;
         }
     
         footer .container{
@@ -456,10 +458,23 @@ footer .item a:hover {
     }
     @media (max-width: 465px) {
         footer {
-            top: 490%;
+            top: 400%;
         }
     
     }
-}
+
+    @media (max-width: 375px) {
+        footer {
+            top: 460%;
+        }
+    
+    }
+        
+    @media (max-width: 275px) {
+        footer {
+            top: 550%;
+        }
+    }
     
 
+}

@@ -10,7 +10,7 @@
 
 html {
     height: 100%;
-    box-sizing: border-box;
+    box-sizing: border-box; 
 }
 
 body {
@@ -33,6 +33,7 @@ header {
     align-items: center;
     justify-content: space-between;
     padding: 1.25rem 3%;
+    zoom: 80%;
 
 }
 
@@ -354,6 +355,7 @@ header {
     top: 85%;
     width: 100%;
     max-width: 100%;
+    zoom: 80%;
 }
 
 .displayer {
@@ -699,6 +701,7 @@ footer {
     top: 470%;
     background-color: #000000;
     color: #ffffff;
+    zoom: 80%;
 }
 
 
@@ -769,11 +772,11 @@ footer .item a:hover {
 
 @media (max-width: 960px) {
     footer {
-        top: 364%;
+        top: 320%;
     }
     @media (max-width: 690px) {
         footer {
-            top: 350%;
+            top: 310%;
         }
     
         footer .container{
@@ -787,7 +790,7 @@ footer .item a:hover {
     }
     @media (max-width: 465px) {
         footer {
-            top: 330%;
+            top: 290%;
         }
     
     }
