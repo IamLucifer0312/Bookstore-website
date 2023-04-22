@@ -6,7 +6,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="../css/product_page.css">
-    <link rel="stylesheet" href="../css/contact_style.css">
     <link rel="stylesheet" href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
 </head>
 <body>
@@ -37,82 +36,36 @@
     </header>
 
     <main>
-        <h1 id="page_title">Contact Us</h1>
-        <form action="" method="" id="contact_form">
-            <div class="input_field">
-                <label for="contact_purpose" class="label">
-                    Contact Purpose:
-                </label>
-
-                <select name="purpose" id="purpose">
-                    <option value="" selected disabled hidden>
-                        Select your purpose
-                    </option>
-                    <option value="sell">I want to sell books</option>
-                    <option value="buy">I want to buy books</option>
-                </select>
+        <div class="book_purchase">
+            <div class="book_img">
+                <a class="big_img"><img src="../images/books/non-fiction/when_breathe_cover.png"></a>
+                <div class="side_art">
+                    <img src="../images/books/non-fiction/when _breathe_ art1.png">
+                    <img src="../images/books/non-fiction/when_breathe_art2.png">
+                    <img src="../images/books/non-fiction/when_breathe_art3.png">
+                </div>
             </div>
-
-            <div class="input_field">
-                <label for="name" class="label">Name:</label>
-                <input type="text" name="name" id="name" />
-            </div>
-
-            <div class="input_field">
-                <label for="email" class="label">Email:</label>
-                <input type="email" name="email" id="email" />
-            </div>
-
             
-            <div class="input_field">
-                <label for="phone" class="label">Phone Number:</label>
-                <input type="number" name="phone" id="phone" />
+            <div class="book_info">
+                <div class="name"><h1>When Breath Becomes Air</h1></div>
+                <div class="author"><h2 id="author">Paul Kalanithi</h2></div>
+                <div class="price"><h2 id="price">$12.45</h2></div>
+                <button class="addtocart bx bx-cart"></button>
+                
             </div>
-
-            
-            <p class="label">Contact Preferences: </p>
-            <div class="check_field">
-                <input type="checkbox" name="by_email" id="by_email" />
-                <label for="by_email">By Email</label>
-            </div>
-
-            <div class="check_field">
-                <input type="checkbox" name="by_phone" id="by_phone" />
-                <label for="by_phone">By Phone</label>
-            </div>
-
-            <p class="label">Receive Weekly Newsletter:</p>
-            <div class="check_field">
-                <input type="radio" name="newsletter" id="newsletter_yes" checked/>
-                <label for="newsletter_yes">Yes</label>
-            </div>
-            <div class="check_field">
-                <input type="radio" name="newsletter" id="newsletter_no" />
-                <label for="newsletter_no">No</label>
-            </div>
-
-            <div class="input_field" id="notes">
-                <label for="notes" class="label">Notes:</label>
-                <textarea
-                    name="notes"
-                    id="notes"
-                    cols="40"
-                    rows="10"
-                ></textarea>
-            </div>
-
-            
-            <div class="buttons">
-                <button id="submit_button">
-                    Submit
-                </button>
-                <button id="reset_button">
-                    Reset
-                </button>
-            </div>
-        </form>
+        </div>
+        
+        <div class="description">
+            <p>
+                Finalist for the PEN Center USA Literary Award in Creative Nonfiction and the Books for a Better Life Award in Inspirational Memoir.
+            </p>
+            <br>
+            <p>
+                At the age of thirty-six, on the verge of completing a decade's worth of training as a neurosurgeon, Paul Kalanithi was diagnosed with stage IV lung cancer. One day he was a doctor treating the dying, and the next he was a patient struggling to live. And just like that, the future he and his wife had imagined evaporated. When Breath Becomes Air chronicles Kalanithi's transformation from a naïve medical student "possessed," as he wrote, "by the question of what, given that all organisms die, makes a virtuous and meaningful life" into a neurosurgeon at Stanford working in the brain, the most critical place for human identity, and finally into a patient and new father confronting his own mortality.
+                What makes life worth living in the face of death? What do you do when the future, no longer a ladder toward your goals in life, flattens out into a perpetual present? What does it mean to have a child, to nurture a new life as another fades away? 
+            </p>
+        </div>
     </main>
-
 
     
     <footer>
@@ -132,7 +85,7 @@
             </div>
             
             <div class="item third">
-                <a href="../contact.html">Contact Us:</a>
+                <a href="../html/contact.html">Contact Us:</a>
                 <br>
                 <a href="https://goo.gl/maps/JM7FXjvj6FadsQ3c7">🗺️ : District 7, Ho Chi Minh City</a>
                 <br>
