@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="../product_page.css">
+    <link rel="stylesheet" href="../contact_style.css">
     <link rel="stylesheet" href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
 </head>
 <body>
@@ -36,39 +37,82 @@
     </header>
 
     <main>
-        <div class="book_purchase">
-            <div class="book_img">
-                <a class="big_img"><img src="images/books/comic/Oshi_no_ko_vol1.png"></a>
-                <div class="side_art">
-                    <img src="images/books/comic/oshi_no_ko_vol1_art1.png">
-                    <img src="images/books/comic/oshi_no_ko_vol1_art2.png">
-                    <img src="images/books/comic/oshi_no_ko_vol1_art3.png">
-                </div>
+        <h1 id="page_title">Contact Us</h1>
+        <form action="" method="" id="contact_form">
+            <div class="input_field">
+                <label for="contact_purpose" class="label">
+                    Contact Purpose:
+                </label>
+
+                <select name="purpose" id="purpose">
+                    <option value="" selected disabled hidden>
+                        Select your purpose
+                    </option>
+                    <option value="sell">I want to sell books</option>
+                    <option value="buy">I want to buy books</option>
+                </select>
             </div>
+
+            <div class="input_field">
+                <label for="name" class="label">Name:</label>
+                <input type="text" name="name" id="name" />
+            </div>
+
+            <div class="input_field">
+                <label for="email" class="label">Email:</label>
+                <input type="email" name="email" id="email" />
+            </div>
+
             
-            <div class="book_info">
-                <div class="name"><h1>Oshi no Ko - Vol 1</h1></div>
-                <div class="author"><h2 id="author">Aka Asasaka - Mengo Yokoyari</h2></div>
-                <div class="price"><h2 id="price">$12.45</h2></div>
-                <button class="addtocart bx bx-cart"></button>
-                
+            <div class="input_field">
+                <label for="phone" class="label">Phone Number:</label>
+                <input type="number" name="phone" id="phone" />
             </div>
-        </div>
-        
-        <div class="description">
-            <p>
-                Have you wondered what it would have been like if you were the child of a celebrity?
-            </p>
-            <br>
-            <p>
-                Hoshino Ai is a 16 year old idol with beautiful features, and the ace of an idol group called B-Komachi. Gaining explosive popularity in the show biz world within 4 years of her debut, she is the star that shines the brightest in the eyes of her fans. One of those fans is Gorou, a gynecologist, who adores Ai.
 
-                One day, Gorou finds out that his beloved idol is taking a break due to health issues. But when a pregnant Ai shows up in his hospital, the flabbergasted Gorou makes up his mind to support his her. Promising her a healthy delivery, they spend the coming months up to her delivery getting to know each other. Little did he know, a stroll at one unfortunate night would spell the end of his promise as an encounter with a mysterious figure leaves him in an eternal slumber.
+            
+            <p class="label">Contact Preferences: </p>
+            <div class="check_field">
+                <input type="checkbox" name="by_email" id="by_email" />
+                <label for="by_email">By Email</label>
+            </div>
 
-                But as fate would have it, the wish that one of his deceased patients once made, ends up coming true as he opens his eyes in the body of a newborn in the arms of none other than Ai.
-            </p>
-        </div>
+            <div class="check_field">
+                <input type="checkbox" name="by_phone" id="by_phone" />
+                <label for="by_phone">By Phone</label>
+            </div>
+
+            <p class="label">Receive Weekly Newsletter:</p>
+            <div class="check_field">
+                <input type="radio" name="newsletter" id="newsletter_yes" checked/>
+                <label for="newsletter_yes">Yes</label>
+            </div>
+            <div class="check_field">
+                <input type="radio" name="newsletter" id="newsletter_no" />
+                <label for="newsletter_no">No</label>
+            </div>
+
+            <div class="input_field" id="notes">
+                <label for="notes" class="label">Notes:</label>
+                <textarea
+                    name="notes"
+                    id="notes"
+                    cols="40"
+                    rows="10"
+                ></textarea>
+            </div>
+
+            
+            <div class="buttons">
+                <button id="submit_button">
+                    Submit
+                </button>
+                <button id="reset_button">
+                    Reset
+                </button>
+            </div>
+        </form>
     </main>
+
 
     
     <footer>
