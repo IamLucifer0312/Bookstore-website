@@ -1,3 +1,19 @@
+/* 
+  RMIT University Vietnam
+  Course: COSC2430 Web Programming
+  Semester: 2023A
+  Assessment: Assignment 1
+  Author: Your names (e.g. Nguyen Van Minh)
+  ID: Your student ids (e.g. 1234567)
+  Acknowledgement: Acknowledge the resources that you use here.  
+*/
+
+@font-face {
+    font-family: Poppins_font;
+    src: url(../fonts/Poppins-Regular.ttf);
+
+}
+
 * {
     margin: 0;
     padding: 0;
@@ -6,6 +22,7 @@
     scroll-behavior: smooth;
     text-decoration: none;
     list-style: none;
+    font-family: "Poppins_font", sans-serif;
 }
 
 html {
